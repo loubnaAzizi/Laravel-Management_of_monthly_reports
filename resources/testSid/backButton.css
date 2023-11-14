@@ -1,0 +1,115 @@
+/* .rowBack {
+    background-color: #708090;
+    height: 460px;
+  } */
+  
+  .text{
+    padding-left: 20px;
+    /* margin-top: 20px; */
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 15px;
+  }
+  
+  .btnBack {
+    margin-right: 80%;
+    /* margin-top: 5%; */
+    border-radius: 50% !important;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none !important;
+    /* padding: 30px 30px !important; */
+    -webkit-transition: background-color 1s, color 1s, -webkit-transform 0.5s;
+       transition: background-color 1s, transform 0.5s;
+  }
+  
+  .btnBack:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    -webkit-transform: translateX(-5px);
+    -webkit-box-shadow: 5px 0px 18px 0px rgba(105,105,105,0.8);
+    -moz-box-shadow: 5px 0px 18px 0px rgba(105,105,105,0.8);
+    box-shadow: 5px 0px 18px 0px rgba(105,105,105,0.8);
+  }
+
+
+
+  .divIndexUser{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .encgL{
+    width: 120px;
+  }
+
+  .rowService{
+    display: block;
+    justify-content: center;
+  }
+
+  .imgSrvc{
+    width: 400px;
+    height: 300px;
+  }
+
+.colServiceEdit{
+    display: block;
+    align-self: center;
+}
+
+.cardTitreEditService{
+    background-color: rgb(224, 109, 109);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.titreValidActiv{
+  font-family: 'Algerian';
+}
+.titreValidContr{
+  font-family: 'Algerian';
+ 
+}
+.tb1{
+  text-align: center;
+  border-collapse: collapse;
+}
+#tdCss{
+  background-color: #cfccca;
+}
+.titreShow{
+  font-family:'Algerian';
+  color: rgb(83, 161, 224);
+  border: 1px black solid;
+  border-radius: 4px;
+  font-size: 40px;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.titreContrain{
+  font-family:'Algerian';
+  color:rgb(243, 105, 105);
+  border: 1px black solid;
+  border-radius: 4px;
+  font-size: 40px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.nomArchive{
+	font-family:  'Impact', sans-serif;
+	
+}
+
+.trArchive{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+
+tbody{
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
